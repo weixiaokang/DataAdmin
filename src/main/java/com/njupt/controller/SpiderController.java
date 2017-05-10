@@ -116,6 +116,8 @@ public class SpiderController {
                                 }
                                 keyword.setNumber(keyword.getNumber() + 1);
                                 List<Article> articleList = keyword.getArticle();
+                                if (articleList == null)
+                                    articleList = new ArrayList<>();
                                 articleList.add(articles.get(j));
                                 keyword.setArticle(articleList);
                                 keywords.add(keyword);

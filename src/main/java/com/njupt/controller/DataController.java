@@ -42,6 +42,8 @@ public class DataController {
         List<KeywordModel> keywordModels = new ArrayList<>();
         for (Keyword keyword : keywords) {
             List<Article> articles = keyword.getArticle();
+            if (articles == null)
+                articles = new ArrayList<>();
             int articleSize = articles.size();
             StringBuilder builder = new StringBuilder();
             for (int i = 0; i < articleSize; i++) {
@@ -192,6 +194,8 @@ public class DataController {
         long count = 0;
         for (Keyword keyword : keywords) {
             List<Article> articles = keyword.getArticle();
+            if (articles == null)
+                articles = new ArrayList<>();
             int articleSize = articles.size();
             StringBuilder builder = new StringBuilder();
             for (int i = 0; i < articleSize; i++) {
