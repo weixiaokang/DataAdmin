@@ -1,7 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="660465b3-b3b9-4def-b6fe-4fa80d8ad29e" name="Default" comment="" />
+    <list default="true" id="660465b3-b3b9-4def-b6fe-4fa80d8ad29e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/App.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/controller/DataController.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/controller/DataController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/controller/SpiderController.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/controller/SpiderController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/exception/GlobalExceptionHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/exception/GlobalExceptionHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/model/ArticleModel.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/model/ArticleModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/model/JournalModel.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/model/JournalModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/model/KeywordModel.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/model/KeywordModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/model/bean/Article.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/model/bean/Article.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/model/bean/Journal.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/model/bean/Journal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/model/bean/Keyword.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/model/bean/Keyword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/model/dao/ArticleDao.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/model/dao/ArticleDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/model/dao/JournalDao.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/model/dao/JournalDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njupt/model/dao/KeywordDao.class" afterPath="$PROJECT_DIR$/target/classes/com/njupt/model/dao/KeywordDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/alpha-horizontal.png" afterPath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/alpha-horizontal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/alpha.png" afterPath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/hue-horizontal.png" afterPath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/hue-horizontal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/hue.png" afterPath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/hue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/saturation.png" afterPath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/img/saturation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/njupt/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/njupt/AppTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/njupt/MyConsolePipeline.class" afterPath="$PROJECT_DIR$/target/test-classes/com/njupt/MyConsolePipeline.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/njupt/MyDownloader.class" afterPath="$PROJECT_DIR$/target/test-classes/com/njupt/MyDownloader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/njupt/MyPageProcessor.class" afterPath="$PROJECT_DIR$/target/test-classes/com/njupt/MyPageProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/njupt/Test.class" afterPath="$PROJECT_DIR$/target/test-classes/com/njupt/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="$PROJECT_DIR$/phantomjsdriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njupt/controller/DataController.java" afterPath="$PROJECT_DIR$/src/main/java/com/njupt/controller/DataController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njupt/controller/SpiderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/njupt/controller/SpiderController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njupt/model/dao/KeywordDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/njupt/model/dao/KeywordDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/view/circle_packing.html" afterPath="$PROJECT_DIR$/src/main/resources/static/view/circle_packing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins.less" afterPath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/background-variant.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/buttons.less" afterPath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/grid.less" afterPath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/hide-text.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/list-group.less" afterPath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/list-group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/pagination.less" afterPath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/pagination.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/reset-text.less" afterPath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/reset-text.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/target/classes/static/build/bootstrap-less/mixins/text-emphasis.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/spider.css" afterPath="$PROJECT_DIR$/target/classes/static/css/spider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="$PROJECT_DIR$/target/classes/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/chartjs/Chart.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/chartjs/Chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/chartjs/Chart.min.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/chartjs/Chart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/bootstrap-colorpicker.css" afterPath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/bootstrap-colorpicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/bootstrap-colorpicker.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/bootstrap-colorpicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/bootstrap-colorpicker.min.css" afterPath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/bootstrap-colorpicker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/colorpicker/bootstrap-colorpicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/daterangepicker/daterangepicker.css" afterPath="$PROJECT_DIR$/target/classes/static/plugins/daterangepicker/daterangepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/daterangepicker/daterangepicker.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/daterangepicker/daterangepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/daterangepicker/moment.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/daterangepicker/moment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/pace/pace.css" afterPath="$PROJECT_DIR$/target/classes/static/plugins/pace/pace.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/pace/pace.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/pace/pace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/pace/pace.min.css" afterPath="$PROJECT_DIR$/target/classes/static/plugins/pace/pace.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/pace/pace.min.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/pace/pace.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ar.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/az.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/az.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/bg.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ca.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/cs.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/da.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/de.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/en.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/es.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/et.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/eu.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/fa.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/fi.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/fr.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/gl.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/he.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/hi.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/hr.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/hu.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/id.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/is.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/it.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ja.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ko.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/lt.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/lv.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/mk.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ms.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/nb.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/nl.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/pl.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/pt-BR.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/pt-BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/pt.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ro.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ru.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/sk.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/sr-Cyrl.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/sr-Cyrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/sr.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/sv.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/th.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/tr.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/uk.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/vi.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/zh-CN.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/zh-TW.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/i18n/zh-TW.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.css" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.full.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.full.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.full.min.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.min.css" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.min.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/select2/select2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/slimScroll/jquery.slimscroll.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/slimScroll/jquery.slimscroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/plugins/slimScroll/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/target/classes/static/plugins/slimScroll/jquery.slimscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table-locale-all.js" afterPath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table-locale-all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table-locale-all.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table-locale-all.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table.css" afterPath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table.js" afterPath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table.min.css" afterPath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/bootstrap-table.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/angular/bootstrap-table-angular.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/angular/bootstrap-table-angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/angular/bootstrap-table-angular.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/angular/bootstrap-table-angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/auto-refresh/bootstrap-table-auto-refresh.css" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/auto-refresh/bootstrap-table-auto-refresh.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/auto-refresh/bootstrap-table-auto-refresh.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/auto-refresh/bootstrap-table-auto-refresh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/click-edit-row/bootstrap-table-click-edit-row.css" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/click-edit-row/bootstrap-table-click-edit-row.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/click-edit-row/bootstrap-table-click-edit-row.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/click-edit-row/bootstrap-table-click-edit-row.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/cookie/bootstrap-table-cookie.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/cookie/bootstrap-table-cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/cookie/bootstrap-table-cookie.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/cookie/bootstrap-table-cookie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/copy-rows/bootstrap-table-copy-rows.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/copy-rows/bootstrap-table-copy-rows.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/copy-rows/bootstrap-table-copy-rows.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/copy-rows/bootstrap-table-copy-rows.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/editable/bootstrap-table-editable.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/editable/bootstrap-table-editable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/editable/bootstrap-table-editable.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/editable/bootstrap-table-editable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/export/bootstrap-table-export.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/export/bootstrap-table-export.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/export/bootstrap-table-export.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/export/bootstrap-table-export.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/filter-control/bootstrap-table-filter-control.css" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/filter-control/bootstrap-table-filter-control.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/filter-control/bootstrap-table-filter-control.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/filter-control/bootstrap-table-filter-control.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/filter-control/bootstrap-table-filter-control.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/filter-control/bootstrap-table-filter-control.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/filter/bootstrap-table-filter.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/filter/bootstrap-table-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/filter/bootstrap-table-filter.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/filter/bootstrap-table-filter.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/flat-json/bootstrap-table-flat-json.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/flat-json/bootstrap-table-flat-json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/flat-json/bootstrap-table-flat-json.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/flat-json/bootstrap-table-flat-json.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by-v2/bootstrap-table-group-by.css" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by-v2/bootstrap-table-group-by.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by-v2/bootstrap-table-group-by.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by-v2/bootstrap-table-group-by.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by-v2/bootstrap-table-group-by.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by-v2/bootstrap-table-group-by.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by/bootstrap-table-group-by.css" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by/bootstrap-table-group-by.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by/bootstrap-table-group-by.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by/bootstrap-table-group-by.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by/bootstrap-table-group-by.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/group-by/bootstrap-table-group-by.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/key-events/bootstrap-table-key-events.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/key-events/bootstrap-table-key-events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/key-events/bootstrap-table-key-events.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/key-events/bootstrap-table-key-events.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/mobile/bootstrap-table-mobile.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/mobile/bootstrap-table-mobile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/mobile/bootstrap-table-mobile.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/mobile/bootstrap-table-mobile.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-search/bootstrap-table-multiple-search.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-search/bootstrap-table-multiple-search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-search/bootstrap-table-multiple-search.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-search/bootstrap-table-multiple-search.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-sort/bootstrap-table-multiple-sort.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-sort/bootstrap-table-multiple-sort.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/natural-sorting/bootstrap-table-natural-sorting.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/natural-sorting/bootstrap-table-natural-sorting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/print/bootstrap-table-print.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/print/bootstrap-table-print.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/print/bootstrap-table-print.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/print/bootstrap-table-print.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-columns/bootstrap-table-reorder-columns.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-columns/bootstrap-table-reorder-columns.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-rows/bootstrap-table-reorder-rows.css" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-rows/bootstrap-table-reorder-rows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-rows/bootstrap-table-reorder-rows.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-rows/bootstrap-table-reorder-rows.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/resizable/bootstrap-table-resizable.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/resizable/bootstrap-table-resizable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/resizable/bootstrap-table-resizable.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/resizable/bootstrap-table-resizable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/select2-filter/bootstrap-table-select2-filter.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/select2-filter/bootstrap-table-select2-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/select2-filter/bootstrap-table-select2-filter.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/select2-filter/bootstrap-table-select2-filter.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/sticky-header/bootstrap-table-sticky-header.css" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/sticky-header/bootstrap-table-sticky-header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/sticky-header/bootstrap-table-sticky-header.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/sticky-header/bootstrap-table-sticky-header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/sticky-header/bootstrap-table-sticky-header.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/sticky-header/bootstrap-table-sticky-header.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/toolbar/bootstrap-table-toolbar.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/toolbar/bootstrap-table-toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/toolbar/bootstrap-table-toolbar.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/toolbar/bootstrap-table-toolbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/tree-column/bootstrap-table-tree-column.css" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/tree-column/bootstrap-table-tree-column.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/tree-column/bootstrap-table-tree-column.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/tree-column/bootstrap-table-tree-column.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/extensions/tree-column/bootstrap-table-tree-column.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/extensions/tree-column/bootstrap-table-tree-column.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-af-ZA.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-af-ZA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-af-ZA.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-af-ZA.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ar-SA.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ar-SA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ar-SA.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ar-SA.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ca-ES.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ca-ES.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ca-ES.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ca-ES.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-cs-CZ.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-cs-CZ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-cs-CZ.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-cs-CZ.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-da-DK.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-da-DK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-da-DK.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-da-DK.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-de-DE.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-de-DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-de-DE.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-de-DE.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-el-GR.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-el-GR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-el-GR.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-el-GR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-en-US.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-en-US.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-en-US.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-en-US.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-AR.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-AR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-AR.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-AR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-CL.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-CL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-CL.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-CL.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-CR.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-CR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-CR.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-CR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-ES.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-ES.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-ES.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-ES.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-MX.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-MX.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-MX.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-MX.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-NI.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-NI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-NI.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-NI.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-SP.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-SP.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-SP.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-es-SP.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-et-EE.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-et-EE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-et-EE.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-et-EE.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fa-IR.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fa-IR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fa-IR.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fa-IR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fr-BE.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fr-BE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fr-BE.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fr-BE.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fr-FR.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fr-FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fr-FR.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-fr-FR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-he-IL.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-he-IL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-he-IL.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-he-IL.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-hr-HR.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-hr-HR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-hr-HR.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-hr-HR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-hu-HU.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-hu-HU.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-hu-HU.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-hu-HU.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-id-ID.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-id-ID.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-id-ID.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-id-ID.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-it-IT.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-it-IT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-it-IT.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-it-IT.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ja-JP.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ja-JP.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ja-JP.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ja-JP.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ka-GE.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ka-GE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ka-GE.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ka-GE.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ko-KR.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ko-KR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ko-KR.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ko-KR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ms-MY.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ms-MY.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ms-MY.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ms-MY.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-nb-NO.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-nb-NO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-nb-NO.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-nb-NO.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-nl-NL.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-nl-NL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-nl-NL.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-nl-NL.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pl-PL.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pl-PL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pl-PL.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pl-PL.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pt-BR.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pt-BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pt-BR.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pt-BR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pt-PT.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pt-PT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pt-PT.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-pt-PT.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ro-RO.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ro-RO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ro-RO.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ro-RO.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ru-RU.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ru-RU.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ru-RU.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ru-RU.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-sk-SK.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-sk-SK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-sk-SK.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-sk-SK.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-sv-SE.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-sv-SE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-sv-SE.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-sv-SE.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-th-TH.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-th-TH.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-th-TH.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-th-TH.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-tr-TR.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-tr-TR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-tr-TR.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-tr-TR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-uk-UA.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-uk-UA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-uk-UA.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-uk-UA.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ur-PK.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ur-PK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ur-PK.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-ur-PK.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-uz-Latn-UZ.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-uz-Latn-UZ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-uz-Latn-UZ.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-uz-Latn-UZ.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-vi-VN.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-vi-VN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-vi-VN.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-vi-VN.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-zh-CN.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-zh-CN.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-zh-CN.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-zh-TW.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-zh-TW.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-zh-TW.min.js" afterPath="$PROJECT_DIR$/target/classes/static/table/locale/bootstrap-table-zh-TW.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/view/circle_packing.html" afterPath="$PROJECT_DIR$/target/classes/static/view/circle_packing.html" />
+    </list>
     <ignored path="DataAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,35 +296,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpiderController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/controller/SpiderController.java">
+      <file leaf-file-name="Keyword.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Keyword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
+            <state relative-caret-position="408">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="43" column="48" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7204#7205#0" expanded="true" />
-                <element signature="e#7234#7235#0" expanded="true" />
-                <element signature="e#7329#7330#0" expanded="true" />
-                <element signature="e#7355#7356#0" expanded="true" />
+                <element signature="e#1354#1355#0" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JournalModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/JournalModel.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+            <state relative-caret-position="-316">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/controller/SpiderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2293">
+              <caret line="141" column="42" selection-start-line="141" selection-start-column="42" selection-end-line="141" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#7224#7225#0" expanded="true" />
+                <element signature="e#7254#7255#0" expanded="true" />
+                <element signature="e#7349#7350#0" expanded="true" />
+                <element signature="e#7375#7376#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,48 +359,53 @@
       <file leaf-file-name="DataController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/controller/DataController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+            <state relative-caret-position="321">
+              <caret line="175" column="37" selection-start-line="175" selection-start-column="37" selection-end-line="175" selection-end-column="37" />
+              <folding>
+                <element signature="e#5885#5886#0" expanded="true" />
+                <element signature="e#5926#5927#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Article.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/exception/GlobalExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="340">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/njupt/Test.java">
+      <file leaf-file-name="KeywordDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/dao/KeywordDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Journal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Journal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/njupt/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyPageProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/njupt/MyPageProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-986">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -116,6 +422,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -131,8 +440,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/njupt/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/spider/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/view/flare.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njupt/model/dao/KeywordDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Keyword.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/spider.css" />
         <option value="$PROJECT_DIR$/src/test/java/com/njupt/MyPageProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njupt/model/dao/ArticleDao.java" />
@@ -158,9 +465,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/njupt/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njupt/model/JournalModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njupt/controller/DataController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/njupt/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njupt/controller/SpiderController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Keyword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njupt/model/dao/KeywordDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njupt/controller/DataController.java" />
       </list>
     </option>
   </component>
@@ -178,12 +488,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="174" />
+    <option name="x" value="22" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -211,258 +521,7 @@
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="njupt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="njupt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPageProcessor.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="njupt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="njupt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="njupt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="njupt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -879,8 +938,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="174" y="23" width="1280" height="773" extended-state="0" />
-    <editor active="false" />
+    <frame x="22" y="23" width="1280" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -891,11 +950,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24857955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24857955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -910,28 +969,29 @@
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.87642044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24857955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -955,21 +1015,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1617">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/dist/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1972">
@@ -1012,16 +1057,6 @@
           <folding>
             <element signature="e#94262#94263#0" expanded="false" />
             <element signature="e#94300#94301#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/dao/KeywordDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1145,36 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Keyword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#772#773#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Journal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.1.RELEASE/spring-data-mongodb-1.10.1.RELEASE-sources.jar!/org/springframework/data/mongodb/repository/MongoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-70">
@@ -1229,14 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1313,26 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/JournalModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -1348,26 +1325,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/controller/DataController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/njupt/MyPageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-986">
           <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/njupt/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1380,17 +1341,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/controller/SpiderController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/njupt/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
+        <state relative-caret-position="204">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Journal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Keyword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.1.RELEASE/spring-data-mongodb-1.10.1.RELEASE-sources.jar!/org/springframework/data/mongodb/repository/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#2213#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7204#7205#0" expanded="true" />
-            <element signature="e#7234#7235#0" expanded="true" />
-            <element signature="e#7329#7330#0" expanded="true" />
-            <element signature="e#7355#7356#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/controller/SpiderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2293">
+          <caret line="141" column="42" selection-start-line="141" selection-start-column="42" selection-end-line="141" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7224#7225#0" expanded="true" />
+            <element signature="e#7254#7255#0" expanded="true" />
+            <element signature="e#7349#7350#0" expanded="true" />
+            <element signature="e#7375#7376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/controller/DataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="175" column="37" selection-start-line="175" selection-start-column="37" selection-end-line="175" selection-end-column="37" />
+          <folding>
+            <element signature="e#5885#5886#0" expanded="true" />
+            <element signature="e#5926#5927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/bean/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/model/dao/KeywordDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njupt/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -91,8 +91,6 @@ public class SpiderController {
                         articles.add(article);
                         articleDao.save(article);
                         log.info("==article==" + nameElements.get(j).getText());
-                        count++;
-                        process = count / total;
                     }
                     List<Article> journalArticle = journal.getArticle();
                     if (journalArticle == null) {
@@ -101,6 +99,8 @@ public class SpiderController {
                     journalArticle.addAll(articles);
                     journal.setArticle(journalArticle);
                     for (int j = 0; j < articles.size(); j++) {
+                        count++;
+                        process = (int)((float)count / total * 100);
                         webDriver.get(articles.get(j).getUrl());
                         try {
                             Thread.sleep(5 * 1000);

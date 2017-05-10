@@ -10,6 +10,10 @@ import com.njupt.model.dao.ArticleDao;
 import com.njupt.model.dao.JournalDao;
 import com.njupt.model.dao.KeywordDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.BasicQuery;
+import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -29,6 +33,8 @@ public class DataController {
     private ArticleDao articleDao;
     @Autowired
     private JournalDao journalDao;
+    @Autowired
+    private MongoTemplate mongoTemplate;
     @GetMapping("/keyword")
     public List<KeywordModel> findAllKeyword() {
         Long count = 0L;
@@ -177,5 +183,30 @@ public class DataController {
         } else {
             return "fail";
         }
+    }
+
+    @RequestMapping("/keyword/{limit}")
+    public List<KeywordModel> keywordLimit(@PathVariable int limit) {
+        List<Keyword> keywords = mongoTemplate.find(new Query().with(new Sort(Sort.Direction.DESC, "number")).limit(limit), Keyword.class);
+        List<KeywordModel> keywordModels = new ArrayList<>();
+        long count = 0;
+        for (Keyword keyword : keywords) {
+            List<Article> articles = keyword.getArticle();
+            int articleSize = articles.size();
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i < articleSize; i++) {
+                builder.append(articles.get(i).getName()).append(";");
+            }
+            String updatetime = "";
+            if (articleSize > 0) {
+                updatetime = articles.get(articleSize - 1).getTime();
+            }
+            KeywordModel model = new KeywordModel(keyword.getKeyword(), keyword.getNumber());
+            model.setArticle(builder.toString());
+            model.setUpdatetime(updatetime);
+            model.setId(++count);
+            keywordModels.add(model);
+        }
+        return keywordModels;
     }
 }

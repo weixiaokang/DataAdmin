@@ -29,7 +29,7 @@ text {
     var pack = d3.pack()
         .size([width - 2, height - 2])
         .padding(3);
-    d3.json("/data/keyword", function(error, data){
+    d3.json("/data/keyword/100", function(error, data){
       if (error) throw error;
       var root = d3.hierarchy({children: data})
           .sum(function(d) {return d.number; })

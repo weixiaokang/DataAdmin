@@ -2,6 +2,9 @@ package com.njupt.model.dao;
 
 import com.njupt.model.bean.Keyword;
 import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.mongodb.repository.Query;
+
+import java.util.List;
 
 /**
  * @author weixk
