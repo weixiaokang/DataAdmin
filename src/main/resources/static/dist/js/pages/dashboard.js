@@ -141,4 +141,28 @@ $(function () {
     line.redraw();
   });
 
+  var jkData = {x:["计算机学报", "软件学报"], data:[287, 550]};
+  var jkBar = echarts.init(document.getElementById("journal-keyword-bar"));
+  var option = {
+    tooltip:{},
+    legend: {
+      data:["关键字个数"]
+    },
+    xAxis: {
+      data: jkData.x
+    },
+    yAxis: {},
+    series: [{
+      name: "关键字个数",
+      type: "bar",
+      data: jkData.data,
+      itemStyle: {
+        normal: {
+          color: '#39cccc'
+        }
+      }
+    }]
+  };
+  jkBar.setOption(option);
 });
+

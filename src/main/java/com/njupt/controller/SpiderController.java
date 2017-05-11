@@ -21,10 +21,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -112,12 +109,12 @@ public class SpiderController {
                                     keyword = new Keyword();
                                     keyword.setKeyword(keywordName);
                                     keyword.setNumber(0);
-                                    keyword.setArticle(new ArrayList<>());
+                                    keyword.setArticle(new LinkedHashSet<>());
                                 }
                                 keyword.setNumber(keyword.getNumber() + 1);
-                                List<Article> articleList = keyword.getArticle();
+                                Set<Article> articleList = keyword.getArticle();
                                 if (articleList == null)
-                                    articleList = new ArrayList<>();
+                                    articleList = new LinkedHashSet<>();
                                 articleList.add(articles.get(j));
                                 keyword.setArticle(articleList);
                                 keywords.add(keyword);

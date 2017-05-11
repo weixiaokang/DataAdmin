@@ -1,6 +1,7 @@
 package com.njupt.controller;
 
 import com.njupt.model.ArticleModel;
+import com.njupt.model.DataModel;
 import com.njupt.model.JournalModel;
 import com.njupt.model.KeywordModel;
 import com.njupt.model.bean.Article;
@@ -12,12 +13,10 @@ import com.njupt.model.dao.KeywordDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.query.BasicQuery;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author weixk
@@ -41,18 +40,15 @@ public class DataController {
         List<Keyword> keywords = keywordDao.findAll();
         List<KeywordModel> keywordModels = new ArrayList<>();
         for (Keyword keyword : keywords) {
-            List<Article> articles = keyword.getArticle();
+            Set<Article> articles = keyword.getArticle();
             if (articles == null)
-                articles = new ArrayList<>();
+                articles = new LinkedHashSet<>();
             int articleSize = articles.size();
             StringBuilder builder = new StringBuilder();
-            for (int i = 0; i < articleSize; i++) {
-                builder.append(articles.get(i).getName()).append(";");
-            }
+            articles.forEach(article -> builder.append(article.getName()).append(";"));
             String updatetime = "";
-            if (articleSize > 0) {
-                updatetime = articles.get(articleSize - 1).getTime();
-            }
+            if (articleSize > 0)
+                updatetime = new ArrayList<>(articles).get(articleSize - 1).getTime();
             KeywordModel model = new KeywordModel(keyword.getKeyword(), keyword.getNumber());
             model.setArticle(builder.toString());
             model.setUpdatetime(updatetime);
@@ -150,10 +146,10 @@ public class DataController {
             model.setName(journal.getName());
             model.setUrl(journal.getUrl());
             model.setCreatetime(journal.getCreatetime());
-            List<Article> articles = journal.getArticle();
+            Set<Article> articles = journal.getArticle();
             if (articles != null) {
                 model.setArticleNumber(articles.size());
-                model.setArticle(articles);
+                model.setArticle(new ArrayList<>(articles));
             }
             journalModels.add(model);
         }
@@ -193,18 +189,15 @@ public class DataController {
         List<KeywordModel> keywordModels = new ArrayList<>();
         long count = 0;
         for (Keyword keyword : keywords) {
-            List<Article> articles = keyword.getArticle();
+            Set<Article> articles = keyword.getArticle();
             if (articles == null)
-                articles = new ArrayList<>();
+                articles = new LinkedHashSet<>();
             int articleSize = articles.size();
             StringBuilder builder = new StringBuilder();
-            for (int i = 0; i < articleSize; i++) {
-                builder.append(articles.get(i).getName()).append(";");
-            }
+            articles.forEach(article -> builder.append(article.getName()).append(";"));
             String updatetime = "";
-            if (articleSize > 0) {
-                updatetime = articles.get(articleSize - 1).getTime();
-            }
+            if (articleSize > 0)
+                updatetime = new ArrayList<>(articles).get(articleSize - 1).getTime();
             KeywordModel model = new KeywordModel(keyword.getKeyword(), keyword.getNumber());
             model.setArticle(builder.toString());
             model.setUpdatetime(updatetime);
@@ -212,5 +205,63 @@ public class DataController {
             keywordModels.add(model);
         }
         return keywordModels;
+    }
+
+    @GetMapping("/journal/keyword/number")
+    public DataModel journalKeywordBar() {
+        DataModel model = new DataModel();
+        List<Journal> journals = journalDao.findAll();
+        List<String> x = new ArrayList<>();
+        List<Integer> data = new ArrayList<>();
+        for (int i = 0; i < journals.size(); i++) {
+            data.add(0);
+        }
+        List<Set<String>> jaSet = new ArrayList<>();
+        journals.forEach(journal -> {
+            x.add(journal.getName());
+            Set<Article> articles = journal.getArticle();
+            Set<String> articleSet = new HashSet<>();
+            articles.forEach(article -> articleSet.add(article.getName().trim()));
+            jaSet.add(articleSet);
+        });
+        List<Keyword> keywords = keywordDao.findAll();
+        for (int i = 0; i < keywords.size(); i++) {
+            boolean flag = true;
+            Set<Article> kaSet = keywords.get(i).getArticle();
+            for (int j = 0; j < jaSet.size(); j++) {
+                for (Article article : kaSet) {
+                    if (jaSet.get(j).contains(article.getName().trim())) {
+                        data.set(j, data.get(j) + 1);
+                        flag = false;
+                        break;
+                    }
+                }
+            }
+            if (flag)
+                System.err.println(keywords.get(i).getKeyword());
+        }
+        model.setX(x);
+        model.setData(data);
+        return model;
+    }
+
+    @GetMapping("/journal/article/number")
+    public DataModel journalArticleBar() {
+        DataModel model = new DataModel();
+        List<Journal> journals = journalDao.findAll();
+        List<String> x = new ArrayList<>();
+        List<Integer> data = new ArrayList<>();
+        journals.forEach(journal -> {
+            x.add(journal.getName());
+            Set<Article> articles = journal.getArticle();
+            if (articles != null) {
+                data.add(journal.getArticle().size());
+            } else {
+                data.add(0);
+            }
+        });
+        model.setX(x);
+        model.setData(data);
+        return model;
     }
 }

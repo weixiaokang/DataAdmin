@@ -9,10 +9,11 @@ import java.util.List;
  * @version Created time 17/5/2. Last-modified time 17/5/2.
  */
 public class Article {
-    @Id
+
     private String name;
     private List<String> author;
     private String time;
+    @Id
     private String url;
     public String getName() {
         return name;
@@ -44,5 +45,18 @@ public class Article {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj instanceof Article) {
+            Article objArticle = (Article) obj;
+            if (name.equals(objArticle.getName())) {
+                return true;
+            }
+        }
+        return false;
     }
 }

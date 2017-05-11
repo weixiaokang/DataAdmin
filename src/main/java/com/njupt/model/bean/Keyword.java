@@ -15,7 +15,7 @@ public class Keyword {
     @Id
     private String keyword;
     private Integer number;
-    private List<Article> article;
+    private Set<Article> article;
 
     public String getKeyword() {
         return keyword;
@@ -33,11 +33,11 @@ public class Keyword {
         this.number = number;
     }
 
-    public List<Article> getArticle() {
+    public Set<Article> getArticle() {
         return article;
     }
 
-    public void setArticle(List<Article> article) {
+    public void setArticle(Set<Article> article) {
         this.article = article;
     }
 }

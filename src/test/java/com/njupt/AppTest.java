@@ -17,10 +17,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -115,10 +112,10 @@ public class AppTest {
                                 keyword = new Keyword();
                                 keyword.setKeyword(name);
                                 keyword.setNumber(0);
-                                keyword.setArticle(new ArrayList<>());
+                                keyword.setArticle(new LinkedHashSet<>());
                             }
                             keyword.setNumber(keyword.getNumber() + 1);
-                            List<Article> articleList = keyword.getArticle();
+                            Set<Article> articleList = keyword.getArticle();
                             articleList.add(articles.get(j));
                             keyword.setArticle(articleList);
                             keywords.add(keyword);

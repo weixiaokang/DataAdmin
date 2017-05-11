@@ -3,15 +3,17 @@ package com.njupt.model.bean;
 import org.springframework.data.annotation.Id;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author weixk
  * @version Created time 17/5/4. Last-modified time 17/5/4.
  */
 public class Journal {
+
     @Id
     private String name;
-    private List<Article> article;
+    private Set<Article> article;
     private String url;
     private String createtime;
 
@@ -31,11 +33,11 @@ public class Journal {
         this.name = name;
     }
 
-    public List<Article> getArticle() {
+    public Set<Article> getArticle() {
         return article;
     }
 
-    public void setArticle(List<Article> article) {
+    public void setArticle(Set<Article> article) {
         this.article = article;
     }
 

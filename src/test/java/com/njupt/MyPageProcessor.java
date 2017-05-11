@@ -13,9 +13,7 @@ import us.codecraft.webmagic.processor.PageProcessor;
 
 import java.io.Closeable;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -97,7 +95,7 @@ public class MyPageProcessor implements PageProcessor {
                             Keyword keyword = new Keyword();
                             keyword.setNumber(1);
                             keyword.setKeyword(keywordElements.get(k).getText().replace(";", ""));
-                            List<Article> articleList = new ArrayList<>();
+                            Set<Article> articleList = new LinkedHashSet<>();
                             articleList.add(articles.get(j));
                             keyword.setArticle(articleList);
                             keywords.add(keyword);
