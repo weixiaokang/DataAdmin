@@ -12,6 +12,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,7 +60,7 @@ public class SpiderController {
             for (int i = 0; i < 10; i++) {
                 webDriver.get(url);
                 try {
-                    Thread.sleep(10 * 1000);
+                    Thread.sleep(30 * 1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -86,15 +87,8 @@ public class SpiderController {
                         String[] authors = authorElements.get(j).getText().split(";\\s*");
                         article.setAuthor(Arrays.asList(authors));
                         articles.add(article);
-                        articleDao.save(article);
                         log.info("==article==" + nameElements.get(j).getText());
                     }
-                    List<Article> journalArticle = journal.getArticle();
-                    if (journalArticle == null) {
-                        journalArticle = new ArrayList<>();
-                    }
-                    journalArticle.addAll(articles);
-                    journal.setArticle(journalArticle);
                     for (int j = 0; j < articles.size(); j++) {
                         count++;
                         process = (int)((float)count / total * 100);
@@ -102,6 +96,10 @@ public class SpiderController {
                         try {
                             Thread.sleep(5 * 1000);
                             List<WebElement> keywordElements = webDriver.findElements(By.xpath("//a[contains(@onclick, 'kw')]"));
+                            List<WebElement> summaryElements = webDriver.findElements(By.xpath("//span[@id='ChDivSummary']"));
+                            if (summaryElements != null && summaryElements.size() > 0)
+                                articles.get(j).setSummary(summaryElements.get(0).getText().trim().replace("\"", ""));
+                            articleDao.save(articles.get(j));
                             for (int k = 0; k < keywordElements.size(); k++) {
                                 String keywordName = keywordElements.get(k).getText().replace(";", "");
                                 Keyword keyword = keywordDao.findOne(keywordName);
@@ -125,10 +123,15 @@ public class SpiderController {
                             e.printStackTrace();
                         }
                     }
+                    Set<Article> journalArticle = journal.getArticle();
+                    if (journalArticle == null) {
+                        journalArticle = new LinkedHashSet<>();
+                    }
+                    journalArticle.addAll(articles);
+                    journal.setArticle(journalArticle);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
             }
             journalDao.save(journal);
             process = 100;

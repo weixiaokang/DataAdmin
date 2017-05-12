@@ -226,19 +226,15 @@ public class DataController {
         });
         List<Keyword> keywords = keywordDao.findAll();
         for (int i = 0; i < keywords.size(); i++) {
-            boolean flag = true;
             Set<Article> kaSet = keywords.get(i).getArticle();
             for (int j = 0; j < jaSet.size(); j++) {
                 for (Article article : kaSet) {
                     if (jaSet.get(j).contains(article.getName().trim())) {
                         data.set(j, data.get(j) + 1);
-                        flag = false;
                         break;
                     }
                 }
             }
-            if (flag)
-                System.err.println(keywords.get(i).getKeyword());
         }
         model.setX(x);
         model.setData(data);
@@ -262,6 +258,34 @@ public class DataController {
         });
         model.setX(x);
         model.setData(data);
+        return model;
+    }
+
+    @GetMapping("/article/time")
+    public DataModel articleTimeLine() {
+        List<Article> articles = mongoTemplate.find(new Query().with(new Sort(Sort.Direction.ASC, "time")), Article.class);
+        Map<String, Integer> map = new TreeMap<>();
+        DataModel model = new DataModel();
+        articles.forEach(article -> {
+            String key = article.getTime().substring(0, 7);
+            map.put(key, map.getOrDefault(key, 0) + 1);
+        });
+        model.setX(new ArrayList<>(map.keySet()));
+        model.setData(new ArrayList<>(map.values()));
+        return model;
+    }
+    @GetMapping("/keyword/time")
+    public DataModel keywordTimeLine() {
+        List<Keyword> keywords = keywordDao.findAll();
+        DataModel model = new DataModel();
+        Map<String, Integer> map = new TreeMap<>();
+        keywords.forEach(keyword -> {
+            List<Article> articles = new ArrayList<>(keyword.getArticle());
+            String key = articles.get(articles.size() - 1).getTime().substring(0, 7);
+            map.put(key, map.getOrDefault(key, 0) + 1);
+        });
+        model.setX(new ArrayList<>(map.keySet()));
+        model.setData(new ArrayList<>(map.values()));
         return model;
     }
 }

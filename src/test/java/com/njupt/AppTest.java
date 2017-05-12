@@ -93,9 +93,9 @@ public class AppTest {
                     articleDao.save(article);
                     System.err.println("==article==" + nameElements.get(j).getText());
                 }
-                List<Article> journalArticle = journal.getArticle();
+                Set<Article> journalArticle = journal.getArticle();
                 if (journalArticle == null) {
-                    journalArticle = new ArrayList<>();
+                    journalArticle = new LinkedHashSet<>();
                 }
                 journalArticle.addAll(articles);
                 journal.setArticle(journalArticle);

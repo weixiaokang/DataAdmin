@@ -38,7 +38,7 @@ function showProcess() {
 $("#query").click(function() {
     var journalName = $("#journalName").val();
     var journalUrl = $("#journalUrl").val().replace("&", "%26");
-    $("#queryForm").html('<div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">0%</div></div>');
+    $("#queryForm").html('<div class="progress"><div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="1" aria-valuemax="100" style="width: 0%;">0%</div></div>');
     $.ajax({
       type: "GET",
       url: "/spider/search?name=" + journalName + "&url=" + journalUrl,

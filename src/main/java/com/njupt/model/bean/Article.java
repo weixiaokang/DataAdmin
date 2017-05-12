@@ -13,6 +13,7 @@ public class Article {
     private String name;
     private List<String> author;
     private String time;
+    private String summary;
     @Id
     private String url;
     public String getName() {
@@ -47,13 +48,21 @@ public class Article {
         this.url = url;
     }
 
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
             return true;
         if (obj instanceof Article) {
             Article objArticle = (Article) obj;
-            if (name.equals(objArticle.getName())) {
+            if (url.equals(objArticle.getUrl())) {
                 return true;
             }
         }
