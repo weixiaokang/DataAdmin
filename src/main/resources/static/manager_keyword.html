@@ -81,7 +81,7 @@
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                         <ul class="treeview-menu">
-                            <li><a href="view/circle_packing.html"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
+                            <li><a href="packing.html"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Morris</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Flot</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Inline charts</a></li>
@@ -121,16 +121,15 @@
             <table id="table" data-toggle="table" data-toolbar="#toolbar"
                    data-search="true" data-show-refresh="true" data-show-toggle="true"
                    data-show-columns="true" data-show-pagination-switch="true" data-pagination="true"
-                   data-show-footer="false" data-minimum-count-columns="2" data-click-to-select="true"
-                   data-id-field="keyword">
+                   data-show-footer="false" data-minimum-count-columns="2" data-id-field="keyword">
                         <thead>
                             <tr>
                                 <th data-field="state" data-checkbox="true">state</th>
                                 <th data-field="id">id</th>
                                 <th data-field="keyword">keyword</th>
-                                <th data-field="number">number</th>
+                                <th data-field="number" data-sortable="true">number</th>
                                 <th data-field="article">article</th>
-                                <th data-field="updatetime">updatetime</th>
+                                <th data-field="updatetime" data-sortable="true">updatetime</th>
                             </tr>
                         </thead>
                     </table>

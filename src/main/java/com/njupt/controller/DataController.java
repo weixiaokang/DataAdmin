@@ -288,4 +288,18 @@ public class DataController {
         model.setData(new ArrayList<>(map.values()));
         return model;
     }
+    @GetMapping("/keyword/number/{limit}")
+    public DataModel keywordBar(@PathVariable int limit) {
+        List<Keyword> keywords = mongoTemplate.find(new Query().with(new Sort(Sort.Direction.DESC, "number")).limit(limit), Keyword.class);
+        DataModel model = new DataModel();
+        List<String> x = new ArrayList<>();
+        List<Integer> data = new ArrayList<>();
+        keywords.forEach(keyword -> {
+            x.add(keyword.getKeyword());
+            data.add(keyword.getNumber());
+        });
+        model.setX(x);
+        model.setData(data);
+        return model;
+    }
 }

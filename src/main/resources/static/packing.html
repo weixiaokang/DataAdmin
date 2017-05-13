@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-    <link href="css/spider.css" rel="stylesheet">
+    <link href="css/packing.css" rel="stylesheet">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
@@ -81,7 +81,7 @@
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                         <ul class="treeview-menu">
-                            <li><a href="packing.html"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Morris</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Flot</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Inline charts</a></li>
@@ -117,18 +117,23 @@
                 <!-- Main row -->
                 <div class="row">
                     <section class="col-lg-9 connectedSortable">
-                        <div id="queryForm" class="nav-tabs-custom">
-                            <form class="form-signin">
-                                <h4 class="form-spider-heading">期刊名称</h4>
-                                <input type="name" id="journalName" class="form-control" placeholder="Name" required autofocus>
-                                <h4 class="form-spider-heading">请填写期刊网址</h4>
-                                <input type="url" id="journalUrl" class="form-control" placeholder="URL">
-                                <button id="query" class="btn btn-lg btn-primary btn-block form-spider-button" type="submit">查询</button>
-                            </form>
-                        </div>
+                        <svg width="960" height="960"><g transform="translate(1,1)"></g></svg>
                     </section>
                 </div>
                 <!-- /.row (main row) -->
+                <div class="row">
+                    <section class="col-lg-12 connectedSortable">
+                        <div class="box box-solid">
+                             <div class="box-header">
+                                <i class="fa fa-th"></i>
+                                <h3 class="box-title">关键字数量</h3>
+                            </div>
+                            <div class="box-body border-radius-none">
+                                <div class="chart" id="keyword-bar" style="height: 250px;"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </section>
             <!-- /.content -->
         </div>
@@ -143,11 +148,13 @@
     </script>
     <!-- Bootstrap 3.3.6 -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="echarts/echarts.common.min.js"></script>
     <!-- FastClick -->
     <script src="plugins/fastclick/fastclick.js"></script>
     <!-- AdminLTE App -->
     <script src="dist/js/app.min.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="dist/js/pages/spider.js"></script>
+    <script src="../d3/d3.min.js"></script>
+    <script src="dist/js/pages/packing.js"></script>
 </body>
 </html>

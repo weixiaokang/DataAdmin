@@ -81,7 +81,7 @@
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                         <ul class="treeview-menu">
-                            <li><a href="view/circle_packing.html"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
+                            <li><a href="packing.html"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Morris</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Flot</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Inline charts</a></li>
@@ -121,15 +121,14 @@
             <table id="table" data-toggle="table" data-toolbar="#toolbar"
                    data-search="true" data-show-refresh="true" data-show-toggle="true"
                    data-show-columns="true" data-show-pagination-switch="true" data-pagination="true"
-                   data-show-footer="false" data-minimum-count-columns="2" data-click-to-select="true"
-                   data-id-field="name">
+                   data-show-footer="false" data-minimum-count-columns="2" data-id-field="name">
                 <thead>
                 <tr>
                     <th data-field="state" data-checkbox="true">state</th>
                     <th data-field="id">id</th>
                     <th data-field="name">name</th>
-                    <th data-field="url">url</th>
-                    <th data-field="createtime">createtime</th>
+                    <th data-field="url" data-formatter="urlFormatter">url</th>
+                    <th data-field="createtime" data-sortable="true">createtime</th>
                 </tr>
                 </thead>
             </table>
