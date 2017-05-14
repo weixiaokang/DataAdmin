@@ -11,6 +11,7 @@ public class ArticleModel {
     private String author;
     private String time;
     private String url;
+    private String summary;
 
     public ArticleModel() {
     }
@@ -53,5 +54,13 @@ public class ArticleModel {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 }

@@ -103,6 +103,7 @@ public class DataController {
                 }
             }
             model.setAuthor(builder.toString());
+            model.setSummary(article.getSummary());
             articleModels.add(model);
         }
         return articleModels;

@@ -57,3 +57,9 @@ $(window).resize(function () {
 function urlFormatter(value, row, index) {
         return ['<a href="' + value + '" target="_blank">' + value + '</a>'].join('');
 }
+
+function detailFormatter(index, row) {
+    var html = [];
+    html.push("<p style='font-size:12px'>" + row.summary + "</p>");
+    return html.join('');
+}
