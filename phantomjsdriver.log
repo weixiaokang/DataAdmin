@@ -6930,3 +6930,599 @@
   OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
   onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
 [INFO  - 2017-05-10T09:31:09.267Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-10T10:07:14.203Z] GhostDriver - Main - running on port 16781
+[INFO  - 2017-05-10T10:07:15.638Z] Session [719105d0-3568-11e7-8bec-d307e81c4204] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-10T10:07:15.639Z] Session [719105d0-3568-11e7-8bec-d307e81c4204] - page.customHeaders:  - {}
+[INFO  - 2017-05-10T10:07:15.639Z] Session [719105d0-3568-11e7-8bec-d307e81c4204] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-10T10:07:15.639Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 719105d0-3568-11e7-8bec-d307e81c4204
+[ERROR - 2017-05-10T10:07:44.311Z] Session [719105d0-3568-11e7-8bec-d307e81c4204] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:07:44.311Z] Session [719105d0-3568-11e7-8bec-d307e81c4204] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:07:49.433Z] Session [719105d0-3568-11e7-8bec-d307e81c4204] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:07:49.433Z] Session [719105d0-3568-11e7-8bec-d307e81c4204] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:07:55.466Z] Session [719105d0-3568-11e7-8bec-d307e81c4204] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:07:55.467Z] Session [719105d0-3568-11e7-8bec-d307e81c4204] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[INFO  - 2017-05-10T10:10:45.061Z] GhostDriver - Main - running on port 10820
+[INFO  - 2017-05-10T10:10:45.402Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-10T10:10:45.403Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.customHeaders:  - {}
+[INFO  - 2017-05-10T10:10:45.403Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-10T10:10:45.403Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ee987810-3568-11e7-95dc-19003020e67e
+[ERROR - 2017-05-10T10:11:18.208Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:11:18.209Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:11:24.013Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:11:24.014Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:11:29.670Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:11:29.671Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:11:34.738Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:11:34.739Z] Session [ee987810-3568-11e7-95dc-19003020e67e] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[INFO  - 2017-05-10T10:16:12.679Z] GhostDriver - Main - running on port 43263
+[INFO  - 2017-05-10T10:16:13.596Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-10T10:16:13.596Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.customHeaders:  - {}
+[INFO  - 2017-05-10T10:16:13.596Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-10T10:16:13.597Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b236e630-3569-11e7-820b-fd2e59d001ae
+[ERROR - 2017-05-10T10:16:37.314Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:16:37.315Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:16:43.361Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:16:43.361Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:16:49.025Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:16:49.025Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:16:54.644Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:16:54.644Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:17:00.316Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:17:00.316Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:17:05.993Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:17:05.994Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:17:11.550Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:17:11.550Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:17:20.229Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:17:20.230Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:17:25.951Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:17:25.951Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:17:31.573Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:17:31.573Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:17:37.189Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:17:37.189Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:17:42.440Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:17:42.441Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:18:14.526Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:18:14.526Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:18:20.209Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:18:20.209Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:18:26.482Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:18:26.482Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:18:31.959Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:18:31.959Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:18:37.930Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:18:37.930Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:18:43.130Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:18:43.131Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:18:49.374Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:18:49.375Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:18:55.068Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:18:55.068Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:19:21.649Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:19:21.650Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:19:27.276Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:19:27.276Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:19:32.850Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:19:32.850Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:19:38.489Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:19:38.489Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:19:44.224Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:19:44.224Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:19:49.852Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:19:49.852Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:19:55.414Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:19:55.414Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:20:01.144Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:20:01.144Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:20:06.678Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:20:06.678Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:20:12.260Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:20:12.261Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:20:17.900Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:20:17.901Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:20:23.431Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:20:23.432Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:20:29.020Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:20:29.020Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:20:34.564Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:20:34.565Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:20:40.158Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:20:40.158Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:20:45.660Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:20:45.660Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:21:00.313Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:21:00.313Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:21:05.926Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:21:05.927Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:21:11.522Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:21:11.523Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[INFO  - 2017-05-10T10:21:12.676Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2017-05-10T10:21:17.142Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:21:17.143Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:21:40.188Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:21:40.189Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:21:45.807Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:21:45.808Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:21:51.383Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:21:51.383Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:21:56.971Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:21:56.971Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:02.039Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:02.039Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:08.093Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:08.094Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:13.750Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:13.750Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:19.262Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:19.262Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:24.354Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:24.355Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:30.644Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:30.644Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:36.222Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:36.222Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:41.800Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:41.800Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:47.466Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:47.467Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:53.094Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:53.095Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:22:58.762Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:22:58.762Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:23:04.440Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:23:04.440Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:23:10.011Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:23:10.011Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:23:15.632Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:23:15.632Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:23:21.482Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:23:21.483Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:23:27.074Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:23:27.074Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:23:50.386Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:23:50.386Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:23:55.963Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:23:55.964Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:01.527Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:01.527Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:07.680Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:07.680Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:13.279Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:13.279Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:18.901Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:18.902Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:24.414Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:24.414Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:30.079Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:30.080Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:35.616Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:35.616Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:40.729Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:40.730Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:46.381Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:46.381Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:52.557Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:52.557Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:24:58.167Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:24:58.167Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:25:03.272Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:25:03.272Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:25:09.386Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:25:09.386Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:25:15.053Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:25:15.053Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:25:20.726Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:25:20.727Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:25:31.609Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:25:31.609Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:25:37.705Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:25:37.705Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:26:00.662Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:26:00.662Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:26:05.793Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:26:05.794Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[INFO  - 2017-05-10T10:26:12.675Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2017-05-10T10:26:22.890Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:26:22.891Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:26:31.424Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:26:31.425Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:26:59.503Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:26:59.504Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:27:10.135Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:27:10.135Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:27:15.801Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:27:15.802Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:27:21.440Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:27:21.440Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:27:27.123Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:27:27.124Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:27:32.748Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:27:32.748Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:27:49.375Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:27:49.375Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:28:23.606Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:28:23.606Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:28:29.857Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:28:29.857Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:28:34.873Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:28:34.873Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:29:02.432Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:29:02.433Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:29:08.001Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:29:08.001Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:29:19.130Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:29:19.130Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:29:35.743Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:29:35.743Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:30:42.515Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:30:42.515Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:30:47.599Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:30:47.600Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:30:59.566Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:30:59.566Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[INFO  - 2017-05-10T10:31:12.707Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2017-05-10T10:31:16.102Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:31:16.102Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:31:26.711Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:31:26.712Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:31:32.733Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:31:32.733Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:31:38.898Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:31:38.898Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:32:06.047Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:32:06.048Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:32:29.112Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:32:29.112Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:32:34.762Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:32:34.762Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:32:39.861Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:32:39.861Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:32:45.989Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:32:45.989Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:32:51.050Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:32:51.050Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:33:13.212Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:33:13.212Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:33:24.868Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:33:24.868Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:33:30.518Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:33:30.518Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:33:36.158Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:33:36.158Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:33:42.201Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:33:42.202Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:34:14.596Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:34:14.597Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:34:38.194Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:34:38.194Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:34:43.783Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:34:43.783Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:35:00.507Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:35:00.507Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:35:12.216Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:35:12.216Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:35:17.771Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:35:17.771Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:35:28.927Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:35:28.927Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:35:39.588Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:35:39.589Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:35:56.676Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:35:56.676Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:36:02.209Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:36:02.209Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:36:07.876Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:36:07.876Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[INFO  - 2017-05-10T10:36:12.707Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2017-05-10T10:36:12.927Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:36:12.927Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:36:24.032Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:36:24.032Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:36:47.549Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:36:47.549Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:36:58.749Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:36:58.750Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:37:09.838Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:37:09.838Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:37:25.826Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:37:25.827Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:37:31.986Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:37:31.987Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:37:37.467Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:37:37.467Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:37:43.068Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:37:43.069Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:38:05.056Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:38:05.056Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[ERROR - 2017-05-10T10:38:10.622Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - msg: TypeError: null is not an object (evaluating 'b.responseXML.documentElement')
+[ERROR - 2017-05-10T10:38:10.623Z] Session [b236e630-3569-11e7-820b-fd2e59d001ae] - page.onError - stack:
+  OnRefChartDataReceive (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+  onreadystatechange (http://piccache.cnki.net/kdn/KCMS/detail/js/min/detail.min.js:1)
+[INFO  - 2017-05-10T10:38:38.006Z] ShutdownReqHand - _handle - About to shutdown
