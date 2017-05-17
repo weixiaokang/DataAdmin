@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,7 @@
     <title>爬虫</title>
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <!-- Font Awesome -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -31,6 +32,7 @@
     <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
     <link href="css/spider.css" rel="stylesheet">
 </head>
+
 <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
         <header class="main-header">
@@ -43,7 +45,7 @@
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top">
-            <!-- Sidebar toggle button-->
+                <!-- Sidebar toggle button-->
                 <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                     <span class="sr-only">Toggle navigation</span>
                 </a>
@@ -52,29 +54,29 @@
         <aside class="main-sidebar">
             <!-- sidebar: style can be found in sidebar.less -->
             <section class="sidebar">
-            <!-- Sidebar user panel -->
-            <!-- sidebar menu: : style can be found in sidebar.less -->
-            <ul class="sidebar-menu">
-                <li class="header">导航栏</li>
-                <li>
-                    <a href="index.html">
+                <!-- Sidebar user panel -->
+                <!-- sidebar menu: : style can be found in sidebar.less -->
+                <ul class="sidebar-menu">
+                    <li class="header">MAIN NAVIGATION</li>
+                    <li>
+                        <a href="index.html">
                         <i class="fa fa-dashboard"></i><span>信息汇总</span>
                     </a>
-                </li>
-               <li class="treeview">
-                    <a href="#">
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
                         <i class="fa fa-table"></i><span>学术信息管理</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                         <ul class="treeview-menu">
                             <li><a href="manager_keyword.html"><i class="fa fa-circle-o"></i> 关键字管理</a></li>
-                            <li><a href="manager_journal.html"><i class="fa fa-circle-o"></i> 期刊管理</a></li>
-                            <li><a href="manager_article.html"><i class="fa fa-circle-o"></i> 文章管理</a></li>
-                        </ul>
-                    </a>
+                    <li><a href="manager_journal.html"><i class="fa fa-circle-o"></i> 期刊管理</a></li>
+                    <li><a href="manager_article.html"><i class="fa fa-circle-o"></i> 文章管理</a></li>
+                </ul>
+                </a>
                 </li>
-                <li class="treeview">
+                <li class="treeview active">
                     <a href="#">
                         <i class="fa fa-pie-chart"></i><span>可视化数据呈现</span>
                         <span class="pull-right-container">
@@ -82,22 +84,22 @@
                         </span>
                         <ul class="treeview-menu">
                             <li><a href="packing.html"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
-                            <li><a href="line.html"><i class="fa fa-circle-o"></i> Line</a></li>
-                            <li><a href="bar.html"><i class="fa fa-circle-o"></i> Bar</a></li>
-                            <li><a href="pie.html"><i class="fa fa-circle-o"></i> Pie</a></li>
-                        </ul>
-                    </a>
+                <li><a href="line.html"><i class="fa fa-circle-o"></i> Line</a></li>
+                <li><a href="bar.html"><i class="fa fa-circle-o"></i> Bar</a></li>
+                <li class="active"><a href="#"><i class="fa fa-circle-o"></i> Pie</a></li>
+                </ul>
+                </a>
                 </li>
-                <li class="active">
-                    <a href="#">
+                <li>
+                    <a href="spider.html">
                         <i class="fa fa-edit"></i><span>爬取数据</span>
                     </a>
                 </li>
-            </ul>
+                </ul>
             </section>
             <!-- /.sidebar -->
         </aside>
-          <!-- Content Wrapper. Contains page content -->
+        <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header">
@@ -107,27 +109,28 @@
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html"><i class="fa fa-dashboard"></i>主页</a></li>
-                    <li class="active">爬取数据</li>
+                    <li class="active">饼图</li>
                 </ol>
             </section>
 
             <!-- Main content -->
             <section class="content">
-                <!-- /.row -->
-                <!-- Main row -->
-                <div class="row">
-                    <section class="col-lg-9 connectedSortable">
-                        <div id="queryForm" class="nav-tabs-custom">
-                            <form class="form-signin">
-                                <h4 class="form-spider-heading">期刊名称</h4>
-                                <input type="name" id="journalName" class="form-control" placeholder="Name" required autofocus>
-                                <h4 class="form-spider-heading">请填写期刊网址</h4>
-                                <input type="url" id="journalUrl" class="form-control" placeholder="URL">
-                                <button id="query" class="btn btn-lg btn-primary btn-block form-spider-button" type="submit">查询</button>
-                            </form>
+                    <section class="col-lg-5 connectedSortable">
+                        <!-- solid sales graph -->
+                        <div class="box box-solid">
+                            <div class="box-header">
+                                <i class="fa fa-th"></i>
+
+                                <h3 class="box-title">期刊关键字</h3>
+                            </div>
+                            <div class="box-body border-radius-none">
+                                <div class="chart" id="keyword-pie" style="height: 250px;"></div>
+                            </div>
+                            <!-- /.box-body -->
                         </div>
+                        <!-- /.box -->
+
                     </section>
-                </div>
                 <!-- /.row (main row) -->
             </section>
             <!-- /.content -->
@@ -143,11 +146,13 @@
     </script>
     <!-- Bootstrap 3.3.6 -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="echarts/echarts.common.min.js"></script>
     <!-- FastClick -->
     <script src="plugins/fastclick/fastclick.js"></script>
     <!-- AdminLTE App -->
     <script src="dist/js/app.min.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="dist/js/pages/spider.js"></script>
+    <script src="dist/js/pages/pie.js"></script>
 </body>
+
 </html>
