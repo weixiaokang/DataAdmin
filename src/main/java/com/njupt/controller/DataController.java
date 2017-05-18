@@ -1,9 +1,6 @@
 package com.njupt.controller;
 
-import com.njupt.model.ArticleModel;
-import com.njupt.model.DataModel;
-import com.njupt.model.JournalModel;
-import com.njupt.model.KeywordModel;
+import com.njupt.model.*;
 import com.njupt.model.bean.Article;
 import com.njupt.model.bean.Journal;
 import com.njupt.model.bean.Keyword;
@@ -302,5 +299,35 @@ public class DataController {
         model.setX(x);
         model.setData(data);
         return model;
+    }
+
+    @GetMapping("/journal/keyword/per")
+    public List<PieDataModel> journalKeywordPie() {
+        List<PieDataModel> data = new ArrayList<>();
+        List<Journal> journals = journalDao.findAll();
+        List<Set<String>> jaSet = new ArrayList<>();
+        journals.forEach(journal -> {
+            PieDataModel model = new PieDataModel();
+            model.setName(journal.getName());
+            model.setValue(0);
+            data.add(model);
+            Set<Article> articles = journal.getArticle();
+            Set<String> articleSet = new HashSet<>();
+            articles.forEach(article -> articleSet.add(article.getName().trim()));
+            jaSet.add(articleSet);
+        });
+        List<Keyword> keywords = keywordDao.findAll();
+        for (int i = 0; i < keywords.size(); i++) {
+            Set<Article> kaSet = keywords.get(i).getArticle();
+            for (int j = 0; j < jaSet.size(); j++) {
+                for (Article article : kaSet) {
+                    if (jaSet.get(j).contains(article.getName().trim())) {
+                        data.get(j).setValue(data.get(j).getValue() + 1);
+                        break;
+                    }
+                }
+            }
+        }
+        return data;
     }
 }
