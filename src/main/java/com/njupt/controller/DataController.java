@@ -7,6 +7,7 @@ import com.njupt.model.bean.Keyword;
 import com.njupt.model.dao.ArticleDao;
 import com.njupt.model.dao.JournalDao;
 import com.njupt.model.dao.KeywordDao;
+import com.njupt.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -265,8 +266,11 @@ public class DataController {
         Map<String, Integer> map = new TreeMap<>();
         DataModel model = new DataModel();
         articles.forEach(article -> {
-            String key = article.getTime().substring(0, 7);
-            map.put(key, map.getOrDefault(key, 0) + 1);
+            String time = article.getTime();
+            if (DateUtils.isDateFormater(time)) {
+                String key = article.getTime().substring(0, 7);
+                map.put(key, map.getOrDefault(key, 0) + 1);
+            }
         });
         model.setX(new ArrayList<>(map.keySet()));
         model.setData(new ArrayList<>(map.values()));
@@ -279,8 +283,11 @@ public class DataController {
         Map<String, Integer> map = new TreeMap<>();
         keywords.forEach(keyword -> {
             List<Article> articles = new ArrayList<>(keyword.getArticle());
-            String key = articles.get(articles.size() - 1).getTime().substring(0, 7);
-            map.put(key, map.getOrDefault(key, 0) + 1);
+            String time = articles.get(articles.size() - 1).getTime();
+            if (DateUtils.isDateFormater(time)) {
+                String key = articles.get(articles.size() - 1).getTime().substring(0, 7);
+                map.put(key, map.getOrDefault(key, 0) + 1);
+            }
         });
         model.setX(new ArrayList<>(map.keySet()));
         model.setData(new ArrayList<>(map.values()));
