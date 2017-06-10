@@ -43,20 +43,22 @@ public class SpiderController {
     private ArticleDao articleDao;
     @Autowired
     private JournalDao journalDao;
-    private int process = 0;
+    private int process = -1;
     @RequestMapping("/search")
-    public String search(@NotEmpty(message = "期刊名称不能为空") @RequestParam String name, @URL @RequestParam String url) {
-        log.info("name=" + name + "; url=" + url);
+    public String search(@NotEmpty(message = "期刊名称不能为空") @RequestParam String name, @URL @RequestParam String url, @RequestParam int page) {
+        log.info("name=" + name + "; url=" + url + "\npage=" + page);
         process = 0;
+        total = 20 * page;
         new Thread(() -> {
             Journal journal = new Journal(name, url);
             SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             String time = format.format(new Date());
             journal.setCreatetime(time);
+            journalDao.save(journal);
             WebDriver webDriver = new PhantomJSDriver();
             List<Keyword> keywords = new ArrayList<>();
             int count = 0;
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < page; i++) {
                 webDriver.get(url);
                 try {
                     Thread.sleep(30 * 1000);
@@ -133,7 +135,7 @@ public class SpiderController {
                 }
             }
             journalDao.save(journal);
-            process = 100;
+            process = -1;
             log.info(String.valueOf(keywords.size()));
             for (Keyword keyword : keywords) {
                 log.info("=======" + keyword.getKeyword() + " " + keyword.getNumber() + "=======");

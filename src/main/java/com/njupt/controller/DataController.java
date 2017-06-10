@@ -220,7 +220,9 @@ public class DataController {
             x.add(journal.getName());
             Set<Article> articles = journal.getArticle();
             Set<String> articleSet = new HashSet<>();
-            articles.forEach(article -> articleSet.add(article.getName().trim()));
+            if (articles != null) {
+                articles.forEach(article -> articleSet.add(article.getName().trim()));
+            }
             jaSet.add(articleSet);
         });
         List<Keyword> keywords = keywordDao.findAll();
