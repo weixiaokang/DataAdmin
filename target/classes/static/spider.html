@@ -35,7 +35,7 @@
     <div class="wrapper">
         <header class="main-header">
             <!-- Logo -->
-            <a href="index2.html" class="logo">
+            <a href="index.html" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
                 <span class="logo-mini">DVS</span>
                 <!-- logo for regular state and mobile devices -->
@@ -55,15 +55,15 @@
             <!-- Sidebar user panel -->
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu">
-                <li class="header">MAIN NAVIGATION</li>
+                <li class="header">导航栏</li>
                 <li>
                     <a href="index.html">
-                        <i class="fa fa-dashboard"></i><span>数据总览</span>
+                        <i class="fa fa-dashboard"></i><span>信息汇总</span>
                     </a>
                 </li>
                <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-table"></i><span>数据管理</span>
+                        <i class="fa fa-table"></i><span>学术信息管理</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
@@ -76,15 +76,15 @@
                 </li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-pie-chart"></i><span>数据图表</span>
+                        <i class="fa fa-pie-chart"></i><span>可视化数据呈现</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                         <ul class="treeview-menu">
-                            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-                            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-                            <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-                            <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+                            <li><a href="packing.html"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
+                            <li><a href="line.html"><i class="fa fa-circle-o"></i> Line</a></li>
+                            <li><a href="bar.html"><i class="fa fa-circle-o"></i> Bar</a></li>
+                            <li><a href="pie.html"><i class="fa fa-circle-o"></i> Pie</a></li>
                         </ul>
                     </a>
                 </li>
@@ -123,6 +123,8 @@
                                 <input type="name" id="journalName" class="form-control" placeholder="Name" required autofocus>
                                 <h4 class="form-spider-heading">请填写期刊网址</h4>
                                 <input type="url" id="journalUrl" class="form-control" placeholder="URL">
+                                <h4 class="form-spider-heading">爬取页数</h4>
+                                <input type="number" id="journalPage" class="form-control" placeholder="">
                                 <button id="query" class="btn btn-lg btn-primary btn-block form-spider-button" type="submit">查询</button>
                             </form>
                         </div>

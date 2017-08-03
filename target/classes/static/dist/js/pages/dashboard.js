@@ -20,8 +20,6 @@ $(function () {
   $(".connectedSortable .box-header, .connectedSortable .nav-tabs-custom").css("cursor", "move");
 
   $.get("/data/keyword/size", function(data, status) {
-    console.log(data);
-      console.log(status);
     if (status == "success") {
       $("#keyword").text(data);
     } else {
@@ -42,127 +40,156 @@ $(function () {
       $("#journal").text("0");
     }
   });
-  //Sparkline charts
-  var myvalues = [1000, 1200, 920, 927, 931, 1027, 819, 930, 1021];
-  $('#sparkline-1').sparkline(myvalues, {
-    type: 'line',
-    lineColor: '#92c1dc',
-    fillColor: "#ebf4f9",
-    height: '50',
-    width: '80'
-  });
-  myvalues = [515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921];
-  $('#sparkline-2').sparkline(myvalues, {
-    type: 'line',
-    lineColor: '#92c1dc',
-    fillColor: "#ebf4f9",
-    height: '50',
-    width: '80'
-  });
-  myvalues = [15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21];
-  $('#sparkline-3').sparkline(myvalues, {
-    type: 'line',
-    lineColor: '#92c1dc',
-    fillColor: "#ebf4f9",
-    height: '50',
-    width: '80'
-  });
 
-  /* Morris.js Charts */
-  // Sales chart
-  var area = new Morris.Area({
-    element: 'revenue-chart',
-    resize: true,
-    data: [
-      {y: '2011 Q1', item1: 2666, item2: 2666},
-      {y: '2011 Q2', item1: 2778, item2: 2294},
-      {y: '2011 Q3', item1: 4912, item2: 1969},
-      {y: '2011 Q4', item1: 3767, item2: 3597},
-      {y: '2012 Q1', item1: 6810, item2: 1914},
-      {y: '2012 Q2', item1: 5670, item2: 4293},
-      {y: '2012 Q3', item1: 4820, item2: 3795},
-      {y: '2012 Q4', item1: 15073, item2: 5967},
-      {y: '2013 Q1', item1: 10687, item2: 4460},
-      {y: '2013 Q2', item1: 8432, item2: 5713}
-    ],
-    xkey: 'y',
-    ykeys: ['item1', 'item2'],
-    labels: ['Item 1', 'Item 2'],
-    lineColors: ['#a0d0e0', '#3c8dbc'],
-    hideHover: 'auto'
-  });
-  var line = new Morris.Line({
-    element: 'line-chart',
-    resize: true,
-    data: [
-      {y: '2011 Q1', item1: 2666},
-      {y: '2011 Q2', item1: 2778},
-      {y: '2011 Q3', item1: 4912},
-      {y: '2011 Q4', item1: 3767},
-      {y: '2012 Q1', item1: 6810},
-      {y: '2012 Q2', item1: 5670},
-      {y: '2012 Q3', item1: 4820},
-      {y: '2012 Q4', item1: 15073},
-      {y: '2013 Q1', item1: 10687},
-      {y: '2013 Q2', item1: 8432}
-    ],
-    xkey: 'y',
-    ykeys: ['item1'],
-    labels: ['Item 1'],
-    lineColors: ['#efefef'],
-    lineWidth: 2,
-    hideHover: 'auto',
-    gridTextColor: "#fff",
-    gridStrokeWidth: 0.4,
-    pointSize: 4,
-    pointStrokeColors: ["#efefef"],
-    gridLineColor: "#efefef",
-    gridTextFamily: "Open Sans",
-    gridTextSize: 10
-  });
-
-  //Donut Chart
-  var donut = new Morris.Donut({
-    element: 'sales-chart',
-    resize: true,
-    colors: ["#3c8dbc", "#f56954", "#00a65a"],
-    data: [
-      {label: "Download Sales", value: 12},
-      {label: "In-Store Sales", value: 30},
-      {label: "Mail-Order Sales", value: 20}
-    ],
-    hideHover: 'auto'
-  });
-
-  //Fix for charts under tabs
-  $('.box ul.nav a').on('shown.bs.tab', function () {
-    area.redraw();
-    donut.redraw();
-    line.redraw();
-  });
-
-  var jkData = {x:["计算机学报", "软件学报"], data:[287, 550]};
   var jkBar = echarts.init(document.getElementById("journal-keyword-bar"));
-  var option = {
+  jkBar.setOption({
     tooltip:{},
     legend: {
       data:["关键字个数"]
     },
     xAxis: {
-      data: jkData.x
+        data: []
     },
     yAxis: {},
     series: [{
       name: "关键字个数",
       type: "bar",
-      data: jkData.data,
+      data: [],
       itemStyle: {
         normal: {
           color: '#39cccc'
         }
       }
     }]
-  };
-  jkBar.setOption(option);
+  });
+  $.ajax({
+    type: "GET",
+    url: "/data/journal/keyword/number",
+    success: function(response) {
+      jkBar.setOption({
+        xAxis: {
+          data: response.x
+        },
+        series: [{
+          name: "关键字个数",
+          data: response.data
+        }]
+      })
+    }
+  });
+  var atLine = echarts.init(document.getElementById("article-line"));
+  atLine.setOption({
+    tooltip:{},
+    legend: {
+      textStyle: {
+            color: "#fff"
+      },
+      data:["论文数量"]
+    },
+    xAxis: {
+        type: "category",
+        boundaryGap: false,
+        axisLine: {
+            lineStyle: {
+                color: "#fff"
+            }
+        },
+        data: []
+    },
+    yAxis: {
+      axisLine: {
+            lineStyle: {
+                color: "#fff"
+            }
+        },
+        splitLine: {
+            lineStyle: {
+                color: "#fff"
+            }
+        }
+    },
+    series: [{
+      name: "论文数量",
+      type: "line",
+      data: [],
+      itemStyle: {
+        normal: {
+          color: '#fff'
+        }
+      }
+    }]
+  });
+  $.ajax({
+    type: "GET",
+    url: "/data/article/time",
+    success: function(response) {
+      atLine.setOption({
+        xAxis: {
+          data: response.x
+        },
+        series: [{
+          name: "论文数量",
+          data: response.data
+        }]
+      })
+    }
+  });
+  var ktLine = echarts.init(document.getElementById("keyword-line"));
+  ktLine.setOption({
+    tooltip:{},
+    legend: {
+      textStyle: {
+            color: "#fff"
+      },
+      data:["关键字数量"]
+    },
+    xAxis: {
+        type: "category",
+        boundaryGap: false,
+        axisLine: {
+            lineStyle: {
+                color: "#fff"
+            }
+        },
+        data: []
+    },
+    yAxis: {
+      axisLine: {
+            lineStyle: {
+                color: "#fff"
+            }
+        },
+        splitLine: {
+            lineStyle: {
+                color: "#fff"
+            }
+        }
+    },
+    series: [{
+      name: "关键字数量",
+      type: "line",
+      data: [],
+      itemStyle: {
+        normal: {
+          color: '#fff'
+        }
+      }
+    }]
+  });
+  $.ajax({
+    type: "GET",
+    url: "/data/keyword/time",
+    success: function(response) {
+      ktLine.setOption({
+        xAxis: {
+          data: response.x
+        },
+        series: [{
+          name: "关键字数量",
+          data: response.data
+        }]
+      })
+    }
+  })
 });
 

@@ -66,12 +66,12 @@
         <li class="header">导航栏</li>
         <li class="active">
           <a href="#">
-            <i class="fa fa-dashboard"></i><span>数据总览</span>
+            <i class="fa fa-dashboard"></i><span>信息汇总</span>
           </a>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-table"></i><span>数据管理</span>
+            <i class="fa fa-table"></i><span>学术信息管理</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -84,15 +84,15 @@
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-pie-chart"></i><span>数据图表</span>
+            <i class="fa fa-pie-chart"></i><span>可视化数据呈现</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
             <ul class="treeview-menu">
-              <li><a href="view/circle_packing.html"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
-              <li><a href="#"><i class="fa fa-circle-o"></i> Morris</a></li>
-              <li><a href="#"><i class="fa fa-circle-o"></i> Flot</a></li>
-              <li><a href="#"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+              <li><a href="packing.html"><i class="fa fa-circle-o"></i> Circle-Packing</a></li>
+              <li><a href="line.html"><i class="fa fa-circle-o"></i> Line</a></li>
+              <li><a href="bar.html"><i class="fa fa-circle-o"></i> Bar</a></li>
+              <li><a href="pie.html"><i class="fa fa-circle-o"></i> Pie</a></li>
             </ul>
           </a>
         </li>
@@ -115,7 +115,7 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i>主页</a></li>
-        <li class="active">数据总览</li>
+        <li class="active">信息汇总</li>
       </ol>
     </section>
 
@@ -127,12 +127,12 @@
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
-              <h3 id="journal">2</h3>
+              <h3 id="journal">0</h3>
 
               <p>期刊</p>
             </div>
             <div class="icon">
-              <i class="ion ion-bag"></i>
+              <i class="ion ion-folder"></i>
             </div>
             <a href="manager_journal.html" class="small-box-footer">More info<i class="fa fa-arrow-circle-right"></i></a>
           </div>
@@ -142,12 +142,12 @@
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
-              <h3 id="article">53</h3>
+              <h3 id="article">0</h3>
 
               <p>论文</p>
             </div>
             <div class="icon">
-              <i class="ion ion-stats-bars"></i>
+              <i class="ion ion-document"></i>
             </div>
             <a href="manager_article.html" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
@@ -157,12 +157,12 @@
           <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
-              <h3 id="keyword">150</h3>
+              <h3 id="keyword">0</h3>
 
               <p>关键字</p>
             </div>
             <div class="icon">
-              <i class="ion ion-person-add"></i>
+              <i class="ion ion-key"></i>
             </div>
             <a href="manager_keyword.html" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
@@ -173,52 +173,34 @@
       <!-- Main row -->
       <div class="row">
         <!-- Left col -->
-        <section class="col-lg-7 connectedSortable">
-          <!-- Custom tabs (Charts with tabs)-->
-          <div class="nav-tabs-custom">
-            <!-- Tabs within a box -->
-            <ul class="nav nav-tabs pull-right">
-              <li class="active"><a href="#revenue-chart" data-toggle="tab">Area</a></li>
-              <li><a href="#sales-chart" data-toggle="tab">Donut</a></li>
-              <li class="pull-left header"><i class="fa fa-inbox"></i> Sales</li>
-            </ul>
-            <div class="tab-content no-padding">
-              <!-- Morris chart - Sales -->
-              <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: 300px;"></div>
-              <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 300px;"></div>
-            </div>
-          </div>
-          <!-- /.nav-tabs-custom -->
-          <!-- quick email widget -->
-        </section>
-        <!-- /.Left col -->
-        <!-- right col (We are only adding the ID to make the widgets sortable)-->
-        <section class="col-lg-5 connectedSortable">
-
-          <!-- solid sales graph -->
+        <section class="col-lg-9 connectedSortable">
           <div class="box box-solid bg-teal-gradient">
             <div class="box-header">
               <i class="fa fa-th"></i>
-
-              <h3 class="box-title">Sales Graph</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn bg-teal btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn bg-teal btn-sm" data-widget="remove"><i class="fa fa-times"></i>
-                </button>
-              </div>
+              <h3 class="box-title">论文数量</h3>
             </div>
             <div class="box-body border-radius-none">
-              <div class="chart" id="line-chart" style="height: 250px;"></div>
+              <div class="chart" id="article-line" style="height: 250px;"></div>
             </div>
             <!-- /.box-body -->
           </div>
-          <!-- /.box -->
-
         </section>
 
-        <section class="col-lg-7 connectedSortable">
+        <section class="col-lg-9 connectedSortable">
+          <div class="box box-solid bg-teal-gradient">
+            <div class="box-header">
+              <i class="fa fa-th"></i>
+              <h3 class="box-title">关键字数量</h3>
+            </div>
+            <div class="box-body border-radius-none">
+              <div class="chart" id="keyword-line" style="height: 250px;"></div>
+            </div>
+            <!-- /.box-body -->
+          </div>
+        </section>
+        <!-- /.Left col -->
+
+        <section class="col-lg-9 connectedSortable">
           <!-- solid sales graph -->
           <div class="box box-solid">
             <div class="box-header">
@@ -241,14 +223,6 @@
     </section>
     <!-- /.content -->
   </div>
-  <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.12
-    </div>
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
-  </footer>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
@@ -457,18 +431,11 @@
 <!-- Bootstrap 3.3.6 -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="echarts/echarts.common.min.js"></script>
-<!-- Morris.js charts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="plugins/morris/morris.min.js"></script>
-<!-- Sparkline -->
-<script src="plugins/sparkline/jquery.sparkline.min.js"></script>
 <!-- FastClick -->
 <script src="plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/app.min.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="dist/js/pages/dashboard.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
 </body>
 </html>

@@ -53,14 +53,13 @@ $(window).resize(function () {
         height: getHeight()
     });
 });
-window.operateEvents = {
-    'click .like': function (e, value, row, index) {
-        alert('You click like action, row: ' + JSON.stringify(row));
-    },
-    'click .remove': function (e, value, row, index) {
-        $("#table").bootstrapTable('remove', {
-            field: 'name',
-            values: [row.id]
-        });
-    }
-};
+
+function urlFormatter(value, row, index) {
+        return ['<a href="' + value + '" target="_blank">' + value + '</a>'].join('');
+}
+
+function detailFormatter(index, row) {
+    var html = [];
+    html.push("<p style='font-size:12px'>" + row.summary + "</p>");
+    return html.join('');
+}
